@@ -1,0 +1,4 @@
+[submodule "hugoblog/public"]
+	path = hugoblog/public
+	url = git@github.com:xxxVitoxxx/xxxVitoxxx.github.io.git
+	branch = main
