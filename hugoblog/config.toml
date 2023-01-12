@@ -41,7 +41,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   name = "vito"
   email = ""
   link = "/posts/"
-  images = ["v.png"]
 
 # Menu config
 # 菜单配置

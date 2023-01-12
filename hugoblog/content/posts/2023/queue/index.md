@@ -15,9 +15,10 @@ lightgallery: true
 ---
 queue 是一種兩端開放的線性數據結構，在前端取出元素，在尾端新增元素，類似排隊購票，排在第一位的，可以最先購票。  
 <!--more-->
+
 遵循先進先出（FILO, First-in-First-out）的特性，通常被使用在管理多線程和實現優先級排隊系統。  
 
-![queue](https://imgur.com/AjBisqH.png)  
+![queue](https://imgur.com/1mT9Z4p.png)  
 
 ## Queue 的基本操作
 
@@ -38,7 +39,7 @@ queue 可以使用 array 和 linked List 實作，這邊使用 golang 的 slice 
 
 ### Declaring stack
 
-```go=1
+```go
 type Queue struct {
     queue []int
     capacity int
@@ -56,7 +57,7 @@ Queue 結構有兩個屬性：
 
 ### Implementing a IsEmpty operation
 
-```go=1
+```go
 func (q *Queue) IsEmpty() bool {
     return len(q.queue) == 0
 }
@@ -64,7 +65,7 @@ func (q *Queue) IsEmpty() bool {
 
 ### Implementing a IsFull operation
 
-```go=1
+```go
 func (q *Queue) IsFull() bool {
     return len(q.queue) == q.capacity
 }
@@ -85,7 +86,7 @@ func (q *Queue) Enqueue(element int) error {
 
 ### Implementing a Dequeue operation
 
-```go=
+```go
 func (q *Queue) Dequeue() error {
     if q.IsEmpty() {
         return errors.New("queue underflow")
