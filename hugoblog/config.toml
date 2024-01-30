@@ -277,7 +277,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 主页的社交信息设置
   [params.social]
     GitHub = "xxxVitoxxx"
-    Linkedin = ""
+    Linkedin = "vitochaooo"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -297,7 +297,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Googlescholar = ""
     Gitea = ""
     Discord = ""
-    Email = "bird06291994@gmail.com"
+    Email = "vito.chaooo@gmail.com"
 
   # Page global config
   # 文章页面全局配置
