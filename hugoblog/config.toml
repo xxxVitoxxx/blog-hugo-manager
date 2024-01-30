@@ -426,11 +426,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "xxxVitoxxx"
+        repo = "xxxvitoxxx.github.io"
+        clientId = "b142418f55b773300605"
+        clientSecret = "c7780fce17a2c86a1a0581461ddc010df689df94"
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
